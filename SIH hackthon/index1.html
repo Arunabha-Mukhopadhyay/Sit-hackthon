@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Naagrik Aur Samvidhaan | Game</title>
+  <link rel="stylesheet" href="game.css">
+</head>
+<body>
+
+  <main class="main">
+    <header class="header">
+      <a href="#" class="logo">Quiz.</a>
+
+      <nav class="navbar">
+        <a href="#" class="active">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+    </header>
+
+    <div class="container">
+      <section class="quiz-section">
+        <div class="quiz-box">
+          <h1>Quiz</h1>
+          <div class="quiz-header">
+            <span>Quiz on Fundamental Duties</span>
+            <span class="header-score">Score: 0/5</span>
+          </div>
+
+          <h2 class="question-text">Which article of the Indian Constitution lists the Fundamental Duties?</h2>
+          
+          <div class="option-list">
+            <div class="option">
+              <span>A. Article 32</span>
+            </div>
+            <div class="option">
+              <span>B. Article 51A</span>
+            </div>
+            <div class="option">
+              <span>C. Article 21</span>
+            </div>
+            <div class="option">
+              <span>D. Article 14</span>
+            </div>
+          </div>
+          <div class="quiz-footer">
+            <span class="question-total">1 of 5 Questions</span>
+            <div class="btn-container">
+              <button class="quit-btn">Quit Quiz</button>
+              <button class="next-btn" style="display: none;">Next</button> <!-- Initially hidden -->
+            </div>
+          </div>         
+        </div>
+      </section>
+
+      <section class="home">
+        <div class="home-content">
+          <h1>Quiz Website</h1>
+          <p>Test your knowledge of the Indian Constitution's Fundamental Duties.</p>
+          <button class="start-btn">Start Quiz</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <div class="popup-info">
+    <h2>Quiz Guide</h2>
+    <span class="info">1. Answer the questions to the best of your ability.</span>
+    <span class="info">2. Click "Next" to proceed after selecting an option.</span>
+    <span class="info">3. Your score will be displayed at the end.</span>
+  
+    <div class="btn-group">
+      <button class="info-btn exit-btn">Exit Quiz</button>
+      <a href="#" class="info-btn continue">Continue</a>
+    </div>
+  </div>
+
+  <script src="questions.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
